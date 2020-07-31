@@ -25,11 +25,11 @@ Activity_emision_baltimore<-NEI%>%filter(fips=="24510")%>%
 #    summarize(Emissions=sum(Emissions))%>%print
 
 #plotting
-png(filename='plot3.png')
+png(filename='plot3.png',width = 640,height = 480)
 i<-ggplot(Activity_emision_baltimore,aes(factor(year),Emissions,fill=type,label=round(Emissions,2))) +
     geom_col() +
     facet_grid(.~type,scales = "free",space="free") + 
-    labs(x="year", y=expression("Total PM"[2.5]*" Emission (Tons)")) + 
+    labs(x="year", y=expression("Total PM "[2.5]*" Emission (Tons)")) + 
     labs(title=expression("PM"[2.5]*" Emissions, Baltimore City 1999-2008 by Source Type"))#+
     #geom_label(aes(fill = type), colour = "white", fontface = "bold")
 print(i)

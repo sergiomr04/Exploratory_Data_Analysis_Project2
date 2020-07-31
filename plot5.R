@@ -36,10 +36,10 @@ color_range <- colorRampPalette(c("blue","gray"))
 
 
 #plotting
-png(filename='plot5.png')
+png(filename='plot5.png',width = 640,height = 480)
 i<-ggplot(Vehicles_emision_baltimore,aes(factor(year),Emissions,label=round(Emissions,2))) +
     geom_col(fill=color_range(4)) +
-    labs(x="year", y=expression("Total PM"[2.5]*" Emission (Tons)")  ) + 
+    labs(x="year", y=expression("Total PM "[2.5]*" Emission (Tons)")  ) + 
     labs(title=expression("PM"[2.5]*" Motor Vehicle Source Emissions in Baltimore from 1999-2008"))+
     geom_label(colour = "Black", fontface = "bold")
 print(i)

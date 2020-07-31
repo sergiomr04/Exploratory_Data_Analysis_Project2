@@ -24,10 +24,10 @@ Total_emision_baltimore<-NEI%>%filter(fips=="24510")%>%
 
 #plotting
 color_range <- 2:5
-png(filename='plot2.png')
+png(filename='plot2.png',width = 640,height = 480)
 x<-barplot(height = Total_emision_baltimore$Emissions
            , names.arg = Total_emision_baltimore$year
-           , xlab = "Years", ylab = expression("Emissions Tons")
+           , xlab = "Years", ylab = expression("Emissions (Tons)")
            , col = color_range, ylim = c(0,3800)
            , main = expression('Annual Emission PM'[2.5]*' in Baltimore City-MD'))
 text(x =x , y = round(Total_emision_baltimore$Emissions,3)

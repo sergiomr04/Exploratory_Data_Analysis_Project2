@@ -40,10 +40,10 @@ vehicle_emissions <- rbind(Vehicles_emision_baltimore,Vehicles_emision_losangele
 
 
 #plotting
-png(filename='plot6.png')
+png(filename='plot6.png',width = 640,height = 480)
 i<-ggplot(vehicle_emissions,aes(factor(year),Emissions,fill=city,label=round(Emissions,2)))+
     geom_col()+facet_grid(.~city)+
-    ylab(expression("total PM"[2.5]*" emissions in tons")) + 
+    ylab(expression("total PM "[2.5]*" emissions in tons")) + 
     xlab("year") +
     ggtitle(expression("PM"[2.5]*" Motor Vehicle Source Emissions in Baltimore & LA, 1999-2008"))#+
     #geom_label(aes(fill = city),colour = "white", fontface = "bold")

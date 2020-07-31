@@ -23,7 +23,7 @@ Total<-with(NEI,tapply(NEI$Emissions, as.factor(NEI$year), sum))
 total_annual_emissions <- aggregate(Emissions ~ year, NEI, FUN = sum)
 Total_emision<-NEI%>%group_by(year)%>%summarize(Emissions=sum(Emissions))%>%print
 #plotting
-png(filename='plot1.png')
+png(filename='plot1.png',width = 640,height = 480)
 color_range <- colorRampPalette(c("blue","green"))
 par(mar = c(4, 5.5, 2, 1), oma = c(0, 0, 2,0))
 x<-barplot(height = Total/10^6
