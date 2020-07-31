@@ -28,10 +28,10 @@ Total_emision<-Coal_NEI%>%group_by(year)%>%
 color_range <- colorRampPalette(c("red","yellow"))
 
 #plotting
-png(filename='plot4.png')
+png(filename='plot4.png',width = 640,height = 480)
 i<-ggplot(Total_emision,aes(factor(year),Emissions/10^5,label=round(Emissions/10^5,4))) +
     geom_col(fill=color_range(4)) +
-    labs(x="year", y=expression("Total PM "[2.5]*" Emission (10"^6*" Tons)")) + 
+    labs(x="year", y=expression("Total PM "[2.5]*" Emission (10 "^6*" Tons)")) + 
     labs(title=expression("PM"[2.5]*" Coal Combustion Source Emissions Across US from 1999-2008"))+
     geom_label(colour = "Black", fontface = "bold")
 print(i)
