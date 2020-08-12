@@ -147,15 +147,17 @@ across(everything())
 Results Description
 -------------------
 
-The final tidy data is produced inside the `run_analysis.R`, which I
-simply named it `tidyDataset.txt` and `tidyData.csv` Both are the same
-result, the differences is the format.The tidy data produced after going
-through all 5 steps of the course project. It contains 180 observations
-and 68 variables. Where the first column is the subject id, second
-column is the activity and the rest are the average of each feature
-variables. To sum up tidyDataset (180 rows, 88 columns) is created by
-sumarizing TidyData taking the means of each variable for each activity
-and each subject, after groupped by subject and activity.
+The final tidy data is produced inside the
+[`run_analysis.R`](run_analysis.R), which I simply named it
+[`tidyDataset.txt`](tidyDataset.txt) and [`tidyData.csv`](tidyData.csv)
+Both are the sameresult, the differences is the format.The tidy data
+produced after going through all 5 steps of the course project. It
+contains 180 observations and 68 variables. Where the first column is
+the subject id, second column is the activity and the rest are the
+average of each feature variables. To sum up tidyDataset (180 rows, 88
+columns) is created by sumarizing TidyData taking the means of each
+variable for each activity and each subject, after groupped by subject
+and activity.
 
     str(tidyDataset)
 
@@ -380,7 +382,7 @@ frame with all of the PM2.5 emissions data. Here are the first few rows.
     ## 36 09001 10300501  PM25-PRI     0.184 POINT 1999
     ## 40 09001 10300504  PM25-PRI     0.273 POINT 1999
 
--   *`fips`:*A five-digit number (represented as a string) indicating
+-   *`fips`:* A five-digit number (represented as a string) indicating
     the U.S. county
 -   *`SCC`:* The name of the source as indicated by a digit string (see
     source code classification table)
@@ -405,7 +407,7 @@ Inventory database and see what it say about fine particulate matter
 pollution in the United states over the 10-year period 1999–2008. You
 may use any R package you want to support your analysis.
 
-### Question 1 (plot1.R)
+### Question 1 [plot1.R](plot1.R)
 
 Have total emissions from PM2.5 decreased in the United States from 1999
 to 2008? Using the base plotting system, make a plot showing the total
@@ -454,7 +456,7 @@ dev.off()
 
 ![plot1](plot1.png)
 
-### Question 2 (plot2.R)
+### Question 2 [plot2.R](plot2.R)
 
 Have total emissions from PM2.5 decreased in the Baltimore City,
 Maryland (𝚏𝚒𝚙𝚜 == “𝟸𝟺𝟻𝟷𝟶”) from 1999 to 2008? Use the base plotting
@@ -499,7 +501,7 @@ dev.off()
 
 ![plot2](plot2.png)
 
-### Question 3 (plot3.R)
+### Question 3 (plot3.R)\[plot3.R\]
 
 Of the four types of sources indicated by the 𝚝𝚢𝚙𝚎 (point, nonpoint,
 onroad, nonroad) variable, which of these four sources have seen
@@ -545,7 +547,7 @@ dev.off()
 
 ![plot3](plot3.png)
 
-### Question 4 (plot4.R)
+### Question 4 [plot4.R](plot4.R)
 
 Across the United States, how have emissions from coal
 combustion-related sources changed from 1999–2008?
@@ -592,7 +594,7 @@ dev.off()
 
 ![plot4](plot4.png)
 
-### Question 5 (plot5.R)
+### Question 5 [plot5.R](plot5.R)
 
 How have emissions from motor vehicle sources changed from 1999–2008 in
 Baltimore City?
@@ -648,7 +650,7 @@ dev.off()
 
 ![plot5](plot5.png)
 
-### Question 6 (plot6.R)
+### Question 6 [plot6.R](plot6.R)
 
 Compare emissions from motor vehicle sources in Baltimore City with
 emissions from motor vehicle sources in Los Angeles County, California
