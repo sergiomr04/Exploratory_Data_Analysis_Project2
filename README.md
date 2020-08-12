@@ -1,5 +1,5 @@
-**Sample code with two projects**
-=================================
+**Sample codes with two projects**
+==================================
 
 1.  [Getting-and cleaning
     data](https://github.com/sergiomr04/Exploratory_Data_Analysis_Project2#getting-and-cleaning-data-project "Getting-and cleaning data")  
