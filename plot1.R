@@ -1,8 +1,4 @@
 library(dplyr)
-#https://rpubs.com/sf47/170076
-#http://rstudio-pubs-static.s3.amazonaws.com/362542_a49cec1422c5404ab82166bf7ba05aff.html
-#https://rstudio-pubs-static.s3.amazonaws.com/345707_3f98d9b3aaea489eabb5c64d1c033619.html
-#https://rpubs.com/mendesct/EDAproj2
 
 filename <- "exdata_NEI_PM2.5.zip"
 # Checking if archieve already exists.
