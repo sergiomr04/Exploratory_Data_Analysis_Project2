@@ -1,11 +1,10 @@
 **Sample code with two projects**
 =================================
 
-[Getting-and cleaning
-data](https://github.com/sergiomr04/Exploratory_Data_Analysis_Project2#getting-and-cleaning-data-project "Getting-and cleaning data")
-\| [Exploratory Data
-Analysis](https://github.com/sergiomr04/Exploratory_Data_Analysis_Project2#exploratory-data-analysis-project "Exploratory Data Analysis")
-\|
+1.  [Getting-and cleaning
+    data](https://github.com/sergiomr04/Exploratory_Data_Analysis_Project2#getting-and-cleaning-data-project "Getting-and cleaning data")  
+2.  [Exploratory Data
+    Analysis](https://github.com/sergiomr04/Exploratory_Data_Analysis_Project2#exploratory-data-analysis-project "Exploratory Data Analysis")
 
 **Getting and Cleaning Data Project**
 =====================================
