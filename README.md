@@ -509,7 +509,7 @@ dev.off()
 
 ![plot2](plot2.png)
 
-### Question 3 (plot3.R)\[plot3.R\]
+### Question 3 [plot3.R](plot3.R)
 
 Of the four types of sources indicated by the 𝚝𝚢𝚙𝚎 (point, nonpoint,
 onroad, nonroad) variable, which of these four sources have seen
